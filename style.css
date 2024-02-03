@@ -1,0 +1,368 @@
+body {
+    font-family: 'Roboto';
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar .navigation a{
+    text-decoration: none;
+    color: black;
+    padding:1em;
+}
+
+.navbar .lets-talk{
+    background-color:#1E6DF0;
+    color:#FFFFFF;
+    height:40px;
+    width:144px;
+    border:none;
+    border-radius:6px ;
+}
+
+.body .home{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project {
+    align-self: center;
+    font-size: 50px;
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+    font-size: 15px;
+}
+
+.project-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+}
+
+
+.intro-description {
+    width: 50%;
+    display: flex;
+    text-align: center;
+}
+
+.intro-designation {
+    font-size: 72px;
+    background: linear-gradient(to right,#00A3FF, #2264ED);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    padding-top: 7%;
+}
+
+.project-div {
+    margin: 2%;
+    flex-basis: 28%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-image {
+    width: 100%;
+    margin:2% 0% 0% 2%;
+}
+
+.project-title {
+    font-size: 25px;
+    margin:0% 0% 0% 2%;
+    width: 100%;
+    font-weight: bolder;
+    padding: 2px;
+}
+
+.project-description {
+    font-size: 15px;
+    margin:0% 0% 0% 2%;
+    width: 100%;
+    color: dimgray;
+    padding: 10px 0px 10px 2px;
+}
+
+.project-keywords {
+    display: flex;
+    font-size: 10px;
+    margin:0% 0% 0% 2%;
+    width: 100%;
+    justify-content: flex-start;
+    font-weight:bolder;
+}
+
+.view-project {
+    font-size: 12px;
+    margin:0% 2% 2% 2%;
+    width: 100%;
+    color: white;
+    background-color:#1E6DF0;
+    border: none;
+    border-radius:5px;
+    padding:8px;
+    font-size: small;
+}
+
+.home-projects{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+
+.price-from {
+    font-size: 10px;
+    display: flex;
+    justify-content: flex-end;
+    color: dimgray;
+    margin-right: 4px;
+}
+
+.price {
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bolder;
+}
+
+.price-div {
+    display: flex;
+    flex-basis:28%;
+}
+
+.project-keywords p {
+    background-color: #F4FAFF;
+    border-radius: 2px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    font-size: 13px;
+}
+
+.price-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:100vh;
+    padding-top: 1%;
+    justify-content: space-evenly;
+}
+
+.price-projects-div-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.price-project-div {
+    flex-basis:28%;
+    margin: 2%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Exp-Edu {
+    display: flex;
+    justify-content: space-between;
+    margin:0%
+}
+
+.portfolio-description {
+    padding: 8px 0px 5px 2px;
+    margin: 0%;
+}
+
+.portfolio-title {
+    padding: 0px 0px 0px 2px;
+    margin:0%
+}
+
+.year {
+    margin:0%;
+    background-color: #1E6DF0;
+    padding: 8px;
+    color: #FFFFFF;
+    border-radius: 8px;
+}
+.portfolio-div {
+    margin: 2% 2% 2% 0%;
+    border:1px solid #999999;
+    padding:18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.portfolio-page-div {
+    display:flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.portfolio-work{
+    flex-basis: 50%;
+}
+
+.portfolio-Edu {
+    flex-basis: 50%;
+}
+
+.portfolio-page{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin:0% 5% 10% 5%;
+    padding-top:10%;
+}
+
+.blog-page{
+    text-align: center;
+    height: 100vh;
+    margin:0% 5% 10% 5%;
+    height: 100vh;
+    padding: 2%;
+}
+
+.blog-page-div {
+    display:flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.rating {
+   width: 100px;
+   padding-bottom:5px;
+}
+
+.blog-description {
+    padding: 8px 0px 5px 2px;
+    margin: 0%;
+    text-align: left;
+}
+
+.blog-person{
+    display: flex;
+    justify-content:flex-start;
+}
+
+.blog-person-details{
+    padding: 5px;
+}
+
+.name-review{
+    font-weight: bold;
+}
+
+.avatar-image{
+    height: 80px;
+    margin: 10px;
+}
+
+.blog-div {
+    margin: 2% 2% 2% 0%;
+    border:1px solid #999999;
+    padding:18px 18px 5px 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 8px;
+    width: 15%;
+}
+
+.blog-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contact-page {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.mail{
+    width: 50px;
+}
+  
+.loc{
+    width: 50px;
+}
+
+.phone{
+    width: 50px;
+}
+
+.contact-page-div {
+    display:flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.contact-projects {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+}
+
+.contact-div {
+    margin: 2% 2% 2% 0%;
+    padding:18px 18px 5px 18px;
+    border:1px solid #999999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    border-radius: 8px;
+    flex-basis: 28%;
+}
+
+.contact-description {
+    padding: 8px 0px 5px 2px;
+    margin: 0%;
+    text-align: center;
+}
+
+.contact-div .project-title {
+    text-align: center;
+}
+
+.lets-talk {
+    cursor: pointer;
+}
+
+.icon {
+    cursor: pointer;
+}
+
